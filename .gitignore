@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.expo/
+.turbo/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.env*
+!.env.example
+.vscode/
+Thumbs.db
+.DS_Store
+supabase/.temp/
+.pnpm-store/
+next-env.d.ts

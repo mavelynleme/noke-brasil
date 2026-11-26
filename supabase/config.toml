@@ -1,0 +1,4 @@
+project_id = "noke-brasil"
+[db.seed]
+enabled = true
+sql_paths = ["./seed/catalog.sql"]

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "name": "@noke/validation",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "zod": "^4",
+    "@noke/domain": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}

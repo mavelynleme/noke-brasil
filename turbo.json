@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "build": {
+      "outputs": [".next/**", "!.next/cache/**", "dist/**"],
+      "env": [
+        "APP_DATA_MODE",
+        "NEXT_PUBLIC_SUPABASE_URL",
+        "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY"
+      ]
+    },
+    "typecheck": {
+      "outputs": []
+    }
+  }
+}

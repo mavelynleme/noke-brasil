@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Noke Brasil",
+    "slug": "noke-brasil",
+    "scheme": "nokebrasil",
+    "version": "0.1.0",
+    "plugins": ["expo-router"],
+    "orientation": "portrait",
+    "android": {
+      "package": "br.com.noke.app"
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.noke.app"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "name": "noke-brasil",
+  "packageManager": "pnpm@12.21.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:web": "pnpm --filter @noke/web dev",
+    "dev:mobile": "pnpm --filter @noke/mobile dev",
+    "build": "turbo build",
+    "lint": "eslint .",
+    "typecheck": "turbo typecheck --concurrency=1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "check": "pnpm lint && pnpm typecheck && pnpm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@playwright/test": "^1",
+    "@types/node": "^24",
+    "eslint": "^9",
+    "prettier": "^3",
+    "turbo": "^2",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8",
+    "vitest": "^4"
+  }
+}
